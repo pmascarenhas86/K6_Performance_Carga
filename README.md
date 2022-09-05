@@ -1,4 +1,4 @@
-#Testes de performance e Carga com o Framework k6 
+# Testes de performance e Carga com o Framework k6 
 
 
 Build and Run 
@@ -18,20 +18,20 @@ Build and Run
 Documentação oficial: https://k6.io/docs/
 
 
-#Para começar:
-Considertando Windows:
+# Para começar:
+## Considerando Windows:
 
 Uma IDE que voce goste. Recomendo o [VSCode](https://code.visualstudio.com/download)
 Gestor de pacotes Windows [CHOCOLATEY](https://chocolatey.org/install)
 O [NodeJS e NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
 
-Para linux:
+## Para linux:
 
 https://k6.io/docs/getting-started/installation/
 
 
-#Variaveis importantes nestes testes:
+# Variaveis importantes nestes testes:
 
 | Variável  | Descricao |
 |-----------|----------------------------------------------------|
