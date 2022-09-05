@@ -33,17 +33,20 @@ https://k6.io/docs/getting-started/installation/
 
 # Variaveis importantes nestes testes:
 
-| Variável  | Descricao |
-|-----------|----------------------------------------------------|
-| _VUS_     | Virtual Users Session: Valor sugerido: 20          |
-| _DURATION_| Tempo máximo do teste em Segundos ou Milisegundos  |
+| Variável  | Descricao | Valor Exemplo|
+|-----------|----------------------------------------------------|----|
+| _VUS_     | Virtual Users Session (usuários em teste cjt)      | 20 |
+| _DURATION_| Tempo máximo do teste em Segundos ou Milisegundos  | 60s|
 
 
 #Como rodar?#
 
 Dentro da diretorio k6:
 No terminal, digite: 
-´´´
+
+```
 k6 run index.js --vus 20 --duration 60s
-´´´
+```
+
+
 
